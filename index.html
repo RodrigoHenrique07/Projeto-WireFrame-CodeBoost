@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto WireFrame</title>
-    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Dentist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./css/viriables.css">
     <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="./css/patterns.css">
@@ -18,205 +19,289 @@
 <body>
     <header>
         <div class="container">
-            <a href="./" class="logo">
-                <img src="./img/logo.svg" alt="logo">
-            </a>
+            <div class="logoHeader">
+                <a href="./" class="logo">
+                    <img src="./img/lgoodentista.png" alt="logo">
+                </a>
+
+                <div class="textHeader">
+                    <strong>Ondontologia Integral</strong>
+                    <p>Salud & Estetica Dental</p>
+                </div>
+                <button class="menu-item menu-mobile">
+                    <img src="./img/Hamburger.png" alt="">
+                </button>
+            </div>
             <nav>
                 <ul>
                     <li>
-                        <a href="" class="menu-item">Menu item</a>
+                        <a href="" class="menu-item">Inicio</a>
                     </li>
                     <li>
-                        <a href="" class="menu-item">Menu item</a>
+                        <a href="" class="menu-item">Servicios</a>
                     </li>
                     <li>
-                        <a href="" class="menu-item">Menu item</a>
+                        <a href="" class="menu-item">Nosotros</a>
                     </li>
                     <li>
-                        <a href="" class="menu-item">Menu item</a>
+                        <a href="" class="menu-item">Contacto</a>
                     </li>
                 </ul>
-                <button class="btn-primery">Call to action</button>
             </nav>
-            <button class="menu-item menu-mobile">Menu Mobile</button>
+
+            <button class="btn-primery">Saca tu turno</button>
+
+           
         </div>
     </header>
 
-    <section class="s-hero">
+    <section class="s-capital">
+        <div class="imagem-mobile">
+            <img src="./img/imgcapitalMobile.png" alt="Imagem Hero">
+        </div>
         <div class="container">
             <div class="text">
-                <h1>Front-end descpmplicado
-                    e direto ao ponto!
+                <div class="subtitle">En Cordoba Capital</div>
+                
+                <h1>Una excelente experiencia <span>Odontológica</span>
                 </h1>
-                <p>Aprenda a desenvolver interfaces modernas e de alta
-                    qualidade com quem está na área atuando com projetos
-                    altamente renomados.
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit molestie, rhoncus luctus arcu ut eros augue. Eu commodo laoreet parturient quam purus magna pretium luctus.
                 </p>
-                <a href="" class="btn-primery">Fazer parte da lista de espera</a>
+
+                <div class="btns-capital">
+                    <a href="" class="btn-primery-active">Saca tu turno</a>
+                    <a href="" class="btn-second">Nuestro Servicios</a>
+                </div>
             </div>
+
             <div class="imagem">
-                <img src="./img/img-hero.svg" alt="Imagem Hero">
+                <img src="./img/image-capital.png" alt="Imagem Hero">
             </div>
         </div>
     </section>
 
-    <section class="s-card-feature">
+     <section class="s-info">
         <div class="container">
-            <div class="main-area">
-                <div class="title center">
-                    <h2>Título</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="card-info">
+                <div class="img-info">
+                    <img src="./img/Vector-localiza.png" alt="">
                 </div>
-                <div class="all-cards">
-                    <div class="card">
-                        <div class="icon">
-                            <img src="./img/icon-circle.svg" alt="">
-                        </div>
-                        <div class="info">
-                            <h3>Título</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra non metus.</p>
-                        </div>
+
+                <div class="text-info">
+                    <span>Dirección</span>
+                    <div>
+                        <p>Av. Color 1560</p>
+                        <p>Cordoba, Cordoba Capital</p>
                     </div>
-                    <div class="card white">
-                        <div class="icon">
-                            <img src="./img/icon-circle.svg" alt="">
-                        </div>
-                        <div class="info">
-                            <h3>Título</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra non metus.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="icon">
-                            <img src="./img/icon-circle.svg" alt="">
-                        </div>
-                        <div class="info">
-                            <h3>Título</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra non metus.</p>
-                        </div>
-                    </div>
-                    
                 </div>
             </div>
-            <div class="second-area">
+
+            <div class="card-info">
+                <div class="img-info">
+                    <img src="./img/Vector-email.png" alt="">
+                </div>
+
+                <div class="text-info">
+                    <span>Email</span>
+                    <p>info@tudentista.com.ar</p>
+                    <p>info@tudentista.com.ar</p>
+                </div>
+            </div>
+
+            <div class="card-info">
+                <div class="img-info">
+                    <img src="./img/Vector-phone.png" alt="">
+                </div>
+
+                <div class="text-info">
+                    <span>Telefonos</span>
+                    <p>351 7608XXX</p>
+                    <p>351 7608XXX</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+     <section class="s-servicios">
+        <div class="container">
+            <div class="subtitle">Especialidades</div>
+            <h2>Nuestros Servicios</h2>
+
+            <div class="all-cards">
+                <div class="card-servicios">
+                    <img src="./img/Icon-Implante.png" alt="">
+                    <span>Implantes</span>
+                    <p>Los implantes dentales son un sustituto artificial de los dientes y sus raíces. Generalmente de forma roscada, los implantes poseen un aspecto y sensación similares a los dientes naturales logrando de esta manera una mayor comodidad, seguridad y confianza en su uso, respecto de otros métodos.</p>
+                    <div class="tag">
+                        <a href="">
+                            Ver mais
+                            <img src="./img/Vector-arrow.png" alt="">
+                        </a>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="card-servicios">
+                    <img src="./img/iconOrto.png" alt="">
+                    <span>Ortodoncia</span>
+                    <p>Los implantes dentales son un sustituto artificial de los dientes y sus raíces. Generalmente de forma roscada, los implantes poseen un aspecto y sensación similares a los dientes naturales logrando de esta manera una mayor comodidad, seguridad y confianza en su uso, respecto de otros métodos.</p>
+                    <div class="tag">
+                        <a href="">
+                            Ver mais
+                            <img src="./img/Vector-arrow.png" alt="">
+                        </a>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="card-servicios">
+                    <img src="./img/icon-implante2.png" alt="">
+                    <span>Ortodoncia</span>
+                    <p>Los implantes dentales son un sustituto artificial de los dientes y sus raíces. Generalmente de forma roscada, los implantes poseen un aspecto y sensación similares a los dientes naturales logrando de esta manera una mayor comodidad, seguridad y confianza en su uso, respecto de otros métodos.</p>
+                    <div class="tag">
+                        <a href="">
+                            Ver mais
+                            <img src="./img/Vector-arrow.png" alt="">
+                        </a>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="card-servicios">
+                    <img src="./img/icon-implante3.png" alt="">
+                    <span>Ortodoncia</span>
+                    <p>Los implantes dentales son un sustituto artificial de los dientes y sus raíces. Generalmente de forma roscada, los implantes poseen un aspecto y sensación similares a los dientes naturales logrando de esta manera una mayor comodidad, seguridad y confianza en su uso, respecto de otros métodos.</p>
+                    <div class="tag">
+                        <a href="">
+                            Ver mais
+                            <img src="./img/Vector-arrow.png" alt="">
+                        </a>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="card-servicios">
+                    <img src="./img/icon-implante4.png" alt="">
+                    <span>Ortodoncia</span>
+                    <p>Los implantes dentales son un sustituto artificial de los dientes y sus raíces. Generalmente de forma roscada, los implantes poseen un aspecto y sensación similares a los dientes naturales logrando de esta manera una mayor comodidad, seguridad y confianza en su uso, respecto de otros métodos.</p>
+                    <div class="tag">
+                        <a href="">
+                            Ver mais
+                            <img src="./img/Vector-arrow.png" alt="">
+                        </a>
+    
+                        
+                    </div>
+                </div>
+
+                <div class="card-servicios">
+                    <img src="./img/icon-implante5.png" alt="">
+                    <span>Ortodoncia</span>
+                    <p>Los implantes dentales son un sustituto artificial de los dientes y sus raíces. Generalmente de forma roscada, los implantes poseen un aspecto y sensación similares a los dientes naturales logrando de esta manera una mayor comodidad, seguridad y confianza en su uso, respecto de otros métodos.</p>
+                    <div class="tag">
+                        <a href="">
+                            Ver mais
+                            <img src="./img/Vector-arrow.png" alt="">
+                        </a>
+    
+                        
+                    </div>
+                </div>
+
+        
+            </div>
+
+        </div>
+
+        <img class="BgImg" src="./img/Background-Dente.png" alt="">
+    </section>
+
+    <section class="testimonios">
+        <div class="container">
+            <div class="subtitle">Testimonios</div>
+            <h2>Lo que opinan nuestros Pacientes</h2>
+
+            <div class="slide">
+               <div class="card-testimonios">
+                   <div class="top">
+                       <span>Matias Gomez</span>
+                       <img src="./img//star-3.png" alt="">
+                   </div>
+                   <p>Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh, interdum faucibus ad diam vivamus vehicula fames.</p>
+               </div>
+
+                <div class="card-testimonios">
                 <div class="top">
-                    <div class="title">
-                        <h2>Título</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    
-                    <a href="" class="btn-primery">Call to action</a>
+                    <span>Matias Gomez</span>
+                    <img src="./img//star-3.png" alt="">
                 </div>
-                <div class="all-imagem">
-                    <div class="img">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
-                    <div class="img">
-                        <img src="./img/thumb.svg" alt="">
-                    </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh, interdum faucibus ad diam vivamus vehicula fames.</p>
                 </div>
+
+                <div class="card-testimonios">
+                <div class="top">
+                    <span>Matias Gomez</span>
+                    <img src="./img//star-3.png" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh, interdum faucibus ad diam vivamus vehicula fames.</p>
+                
+            </div>
+                
+            </div>
+            <button class="btn-second2">Ver Mas Reviews</button>
+
+        </div>
+    </section>  
+
+
+    <section class="s-sobre">
+        <div class="container">
+        
+                <img src="./img/Dra.png" alt="">
+            
+            <div class="sobreInfo">
+                <div class="subtitle">Sobre Mi</div>
+                <h2>Dra. Patricia Nieves Kiriaco</h2>
+                <ul class="curriculo">
+                    <li>Médica Cirujano, graduada en la Universidad Nacional de Córdoba, Argentina.</li>
+                    <li>Odontóloga, graduada en la Universidad de París, Francia</li>
+                    <li>Docente de la Universidad Nacional de Córdoba desde el año 1975</li>
+                    <li>Miembro de las siguientes Academias:</li>
+                </ul>
+
+                <ul class="memberAcademia">
+                    <li>A.L.A.O: Academia Latinoamericana de Oseointegración.</li>
+                    <li>A.I.I.O: Academia Internacional de Implantes y Oseointegración . Miembro Fundador</li>
+                    <li>A.V.O.I.O: Academia Venezolana de Oseointegración e Implantologìa Oral. Miembro Honorario</li>
+                    <li>Pierre Fauchard Academy: Academia de Honor de Odontologìa de E.E.U.U.</li>
+                    <li>A.I.I.P: Academia Internacional de Implantología y Periodoncia – Barcelona. Presidente Internacional.</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section class="s-newsletter">
-        <div class="container">
-            <h2>Front-end descomplicado e direto ao ponto!</h2>
-            <p>Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos
-            altamente renomados.</p>
-            <a href="" class="btn-primery"> Fazer parte da lista de espera</a>
-        </div>
-    </section>
 
-    <footer>
+    <section class="s-perguntas">
         <div class="container">
-            <main>
-                <div class="area-left">
-                    <img src="./img/logo-footer.svg" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra.</p>
-                </div>
-                <nav>
-                    <div class="item">
-                        <h6>Lista de páginas</h6>
-                        <ul>
-                            <li><a href="">Text link 01</a></li>
-                            <li><a href="">Text link 02</a></li>
-                            <li><a href="">Text link 03</a></li>
-                            <li><a href="">Text link 04</a></li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        <h6>Soluções</h6>
-                        <ul>
-                            <li><a href="">Text link 01</a></li>
-                            <li><a href="">Text link 02</a></li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        <h6>Nossas redes sociais</h6>
-                        <ul>
-                            <li>
-                                <a href="">
-                                    <img src="./img/instagram.svg" alt="Icone do instagram">
-                                    <span>Intagram</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="./img/linkedin.svg" alt="Icone do linkedln">
-                                    <span>Linkediln</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="./img/youtube.svg" alt="Icone do Youtube">
-                                    <span>Youtube</span>
-                                </a>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                </nav>
-            </main>
-            <div class="copy">
-                <p>2021 © Todos os direitos reservados. <strong>Codeboost</strong></p>
-                <div class="grupo">
-                    <span>Grupo</span>
-                    <img src="./img/boost.svg" alt="">
-                </div>
+            <div class="subtitle">Sacate las dudas</div>
+            <h2>Preguntas Frecuentes</h2>
+
+            <div class="pergunta">
+                <p>¿Que Obras sociales aceptan?</p>
+                <img src="./img/arrowcima.png" alt="">
             </div>
+
+          
         </div>
-    </footer>
+    </section>  
+
+ 
+
+  
 
 </body>
 </html>

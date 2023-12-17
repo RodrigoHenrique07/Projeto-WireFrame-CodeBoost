@@ -6,7 +6,8 @@
   list-style: none;
   text-decoration: none;
   font-size: 1.6rem;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
 }
 
 img{
@@ -20,6 +21,7 @@ html{
 
 button{
   cursor: pointer;
+  background-color: transparent;
 }
 
 

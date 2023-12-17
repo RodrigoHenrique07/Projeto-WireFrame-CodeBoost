@@ -7,7 +7,16 @@
     --gray-colors-400: #5C6066;
     --gray-colors-800:  #F7F8FA;
     --white-colors: #FFFFFF;
+   
     --white-colors-text: rgba(255, 255, 255, 0.7);
+
+
+    --dark-color-15: #00296D;
+    --dark-black-color-15: #252525;
+    --accent-color-5: #2977D5;
+    --Grey-Color: #666;
+    --light-color-60-pure-white: #FFF9FD;
+    --light-color-30-blue-sky: #D4E4F4;
 
 
 }
