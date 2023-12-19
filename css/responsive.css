@@ -1,4 +1,8 @@
 @media(max-width: 1600px) {
+    .s-capital {
+        padding: 10rem 0px;
+    }
+
     .s-capital .container .imagem{
         max-width: 700px;
         height: 700px;
@@ -14,6 +18,27 @@
         padding: 72px 170px;
     }
 
+    /* responsivo Sobre */
+    .s-sobre .container .sobreImg{
+        max-width: 664px;
+    max-height: 713px;
+       
+    }
+    
+    .s-sobre .container .sobreImg img{
+    
+    }
+
+    .s-sobre .container .sobreInfo{
+        max-width: 550px;
+    }
+
+
+    /* Formulario */ 
+
+    form{
+        max-width: 685px; 
+    }
 
 }
 
@@ -23,8 +48,7 @@
 @media(max-width: 1200px) {
     header {
         box-shadow: 0px 1px 10px 0px rgba(102, 102, 102, 0.15);
-        position: fixed;
-        z-index: 200;
+       
     }
 
     header .container .logoHeader{
@@ -105,7 +129,62 @@
 
 
 
-   
+
+    /* Responsivo SObre */
+
+    .s-sobre .container{
+        flex-direction: column;
+    }
+    .s-sobre .container .sobreImg{
+       
+       max-width: 100%;
+       max-height: 100%;
+    }
+    
+    .s-sobre .container .sobreImg img{
+    
+    }
+
+    .s-sobre .container .sobreInfo{
+        max-width: 100%;
+    }
+
+    .s-sobre .container .sobreInfo h2{
+        margin: 2rem 0;
+    }
+
+    .s-sobre .container .sobreInfo .curriculo {
+        margin-left: 20px;
+    }
+
+    .s-sobre .container .sobreInfo .memberAcademia{
+        margin-left: 40px;
+    }
+
+    .s-sobre .container .sobreInfo ul li{
+        font-size: 13px;
+    }
+
+
+/* Responsivo Contato */
+
+
+.s-contato .container .info-contato{
+   align-items: center;
+}
+
+.s-contato .container .info-contato .contatos{
+    
+ }
+.s-contato .container .content-contato{
+
+    flex-direction: column-reverse;
+}
+
+form{
+    max-width: 100%;
+    margin-bottom: 8.8rem;
+}
 
 }
 @media(max-width: 991px) {
@@ -136,16 +215,26 @@ header .menu-mobile {
         align-items: start;
     }
     .s-info .container .card-info{
+       
+        justify-content: space-between;
         width: 100%;
+
        
       
     }
 
     .s-info .container .card-info .text-info{
         flex-direction: row;
-        width: 100%;
+        gap: 11rem;
         justify-content: space-between;
        
+    }
+
+    .s-info{
+        display: none;
+    }
+    .s-info-mobile {
+        display: block;
     }
     
 
@@ -233,6 +322,79 @@ header .menu-mobile {
     .s-servicios .container .all-cards .card-servicios{
         max-width: 100%;
     }
+
+/* ========= Resposivo Section Info ====== */
+.s-info{
+    background: rgba(255, 249, 253, 1);
+   
+}
+.s-info .container .card-info .text-info{
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+.s-info .container .card-info .text-info div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+    .s-info .container .card-info .text-info span{
+        font-size: 18px; 
+        color: var(--dark-black-color-15);
+        font-weight: 250;
+    }
+
+    .s-info .container .card-info .text-info p{
+        font-size: 13px;
+        color: var(--Grey-Color);
+
+    }
+
+
+    /* ========== Responsivo Perguntas ======== */
+
+    .s-perguntas .container .accordion {
+        margin-bottom: 2rem;
+    }
+
+    .s-perguntas .container .accordion .title {
+        padding: 2rem;
+    }
+
+    .s-perguntas .container .accordion.active .title{
+        padding: 2rem;
+    }
+
+    .s-perguntas .container .accordion .title p{
+        font-size: 13px;
+        font-weight: 500;
+
+    }
+
+    .s-perguntas .container .accordion  .resposta{
+        padding: 2rem;
+    }
+
+    .s-perguntas .container .accordion  .resposta p{
+        font-size: 13px;
+    }
+
+    .s-perguntas .container .accordion .title .none{
+        display: none;
+    }
+
+    .s-perguntas .container .accordion .title .arrowmobile{
+        display: flex;
+    }
+
+
+    
+
+
+    
+
 
     
 }

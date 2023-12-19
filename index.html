@@ -28,9 +28,12 @@
                     <strong>Ondontologia Integral</strong>
                     <p>Salud & Estetica Dental</p>
                 </div>
-                <button class="menu-item menu-mobile">
+                <button class="menu-mobile js-open-modal ">
                     <img src="./img/Hamburger.png" alt="">
                 </button>
+
+
+               
             </div>
             <nav>
                 <ul>
@@ -51,8 +54,60 @@
 
             <button class="btn-primery">Saca tu turno</button>
 
+            
            
         </div>
+
+        <div class="modal" id="js-modal">
+            
+                <div class="overlay"></div>
+
+                
+
+
+
+                <div class="box">
+
+                    <div class="boxHeader">
+                        <a href="./" class="logoModal">
+                            <img src="./img/lgoodentista.png" alt="logo">
+                        </a>
+        
+                        <div class="textHeaderModal">
+                            <strong>Ondontologia Integral</strong>
+                            <p>Salud & Estetica Dental</p>
+                        </div>
+                        <button class="menu-mobile js-close-modal ">
+                            <img src="./img/Hamburger.png" alt="">
+                        </button>
+                    </div>
+
+                    <div class="content">
+
+                    
+
+                    <div class="left">
+                       <div class="img">
+                            <img src="./img//imgsmodal.png" alt="">
+                       </div>
+
+                       <button class="btn-modal">
+                        Saca tu turno
+                       </button>
+
+                    </div>
+
+                    <div class="menu">
+                        <ul>
+                            <li><a href="">Inicio</a></li>
+                            <li><a href="">Servicios</a></li>
+                            <li><a href="">Nosotros</a></li>
+                            <li><a href="">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
     </header>
 
     <section class="s-capital">
@@ -69,8 +124,8 @@
                 </p>
 
                 <div class="btns-capital">
-                    <a href="" class="btn-primery-active">Saca tu turno</a>
-                    <a href="" class="btn-second">Nuestro Servicios</a>
+                    <a href="" class="btn-primery-active js-btn">Saca tu turno</a>
+                    <a href="" class="btn-second js-btn">Nuestro Servicios</a>
                 </div>
             </div>
 
@@ -96,15 +151,18 @@
                 </div>
             </div>
 
-            <div class="card-info">
+             <div class="card-info">
                 <div class="img-info">
                     <img src="./img/Vector-email.png" alt="">
                 </div>
 
                 <div class="text-info">
                     <span>Email</span>
-                    <p>info@tudentista.com.ar</p>
-                    <p>info@tudentista.com.ar</p>
+                    <div>
+
+                        <p>info@tudentista.com.ar</p>
+                        <p>info@tudentista.com.ar</p>
+                    </div>
                 </div>
             </div>
 
@@ -115,12 +173,57 @@
 
                 <div class="text-info">
                     <span>Telefonos</span>
+                    <div>   
+
+                        <p>351 7608XXX</p>
+                        <p>351 7608XXX</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+          
+        </div>
+    </section> 
+
+    <section class="s-info-mobile">
+        <div class="container">
+
+      
+        
+            <div class="cardInfo-Mobile">
+                <img src="./img/Vector-email.png" alt="">
+                <span>Dirección</span>
+
+                <div class="info-Text">
+                    <p>Av. Color 1560</p>
+                    <p>Cordoba, Cordoba Capital</p>
+                </div>
+            </div>
+
+            <div class="cardInfo-Mobile">
+                <img src="./img/Vector-email.png" alt="">
+                <span>Email</span>
+
+                <div class="info-Text">
+                    <p>info@tudentista.com.ar</p>
+                    <p>info@tudentista.com.ar</p>
+                </div>
+            </div>
+
+            <div class="cardInfo-Mobile">
+                <img src="./img/Vector-email.png" alt="">
+                <span>Telefonos</span>
+
+                <div class="info-Text">
                     <p>351 7608XXX</p>
                     <p>351 7608XXX</p>
                 </div>
             </div>
         </div>
-    </section> 
+      
+    </section>
 
      <section class="s-servicios">
         <div class="container">
@@ -257,11 +360,31 @@
         </div>
     </section>  
 
+    <section class="s-clinica">
+        <div class="container">
+            <div class="subtitle">Las Instalaciones</div>
+            <h2>Nuestra Clinica</h2>
+
+            <div class="slide-clinica">
+                <img src="./img/slide-clinica.png" alt="">
+       
+            </div>
+
+            <div class="elipse">
+                <img src="./img/Group 171.png" alt="">
+            </div>
+        </div>
+    </section>
+
 
     <section class="s-sobre">
         <div class="container">
-        
+
+            <div class="sobreImg">
+
                 <img src="./img/Dra.png" alt="">
+            </div>
+        
             
             <div class="sobreInfo">
                 <div class="subtitle">Sobre Mi</div>
@@ -290,17 +413,148 @@
             <div class="subtitle">Sacate las dudas</div>
             <h2>Preguntas Frecuentes</h2>
 
-            <div class="pergunta">
-                <p>¿Que Obras sociales aceptan?</p>
-                <img src="./img/arrowcima.png" alt="">
+            
+
+            <div class="accordion">
+                <div class="title js-accordion">
+                    <p>¿Que Obras sociales aceptan?</p>
+                    <img class="none" src="./img/arrowcima.png" alt="">
+                   <img class="arrowmobile" src="./img/arrowmobile.png" alt="">
+                </div>
+                <div class="resposta">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh, interdum faucibus ad diam vivamus vehicula fames. Convallis ornare praesent mollis at habitasse morbi eu ridiculus, tristique proin venenatis dictum nisl volutpat interdum, eleifend velit erat mi penatibus nibh curabitur. Vestibulum augue condimentum luctus auctor nullam imperdiet magna, mattis scelerisque erat odio aliquam risus nam morbi, accumsan dapibus montes facilisis suspendisse rhoncus.</p>
+                </div>
+
+            </div>
+
+            <div class="accordion">
+                <div class="title js-accordion">
+                    <p>¿Que Obras sociales aceptan?</p>
+                    <img class="none" src="./img/arrowcima.png" alt="">
+                    <img class="arrowmobile" src="./img/arrowmobile.png" alt="">
+                   
+                </div>
+                <div class="resposta">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh, interdum faucibus ad diam vivamus vehicula fames. Convallis ornare praesent mollis at habitasse morbi eu ridiculus, tristique proin venenatis dictum nisl volutpat interdum, eleifend velit erat mi penatibus nibh curabitur. Vestibulum augue condimentum luctus auctor nullam imperdiet magna, mattis scelerisque erat odio aliquam risus nam morbi, accumsan dapibus montes facilisis suspendisse rhoncus.</p>
+                </div>
+
+            </div>
+
+            <div class="accordion">
+                <div class="title js-accordion">
+                    <p>¿Que Obras sociales aceptan?</p>
+                    <img class="none" src="./img/arrowcima.png" alt="">
+                   <img class="arrowmobile" src="./img/arrowmobile.png" alt="">
+                   
+                </div>
+                <div class="resposta">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh, interdum faucibus ad diam vivamus vehicula fames. Convallis ornare praesent mollis at habitasse morbi eu ridiculus, tristique proin venenatis dictum nisl volutpat interdum, eleifend velit erat mi penatibus nibh curabitur. Vestibulum augue condimentum luctus auctor nullam imperdiet magna, mattis scelerisque erat odio aliquam risus nam morbi, accumsan dapibus montes facilisis suspendisse rhoncus.</p>
+                </div>
+
+            </div>
+
+            <div class="accordion">
+                <div class="title js-accordion">
+                    <p>¿Que Obras sociales aceptan?</p>
+                    <img class="none" src="./img/arrowcima.png" alt="">
+                    <img class="arrowmobile" src="./img/arrowmobile.png" alt="">
+                   
+                </div>
+                <div class="resposta">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh, interdum faucibus ad diam vivamus vehicula fames. Convallis ornare praesent mollis at habitasse morbi eu ridiculus, tristique proin venenatis dictum nisl volutpat interdum, eleifend velit erat mi penatibus nibh curabitur. Vestibulum augue condimentum luctus auctor nullam imperdiet magna, mattis scelerisque erat odio aliquam risus nam morbi, accumsan dapibus montes facilisis suspendisse rhoncus.</p>
+                </div>
+
+            </div>
+
+            <div class="accordion">
+                <div class="title js-accordion">
+                    <p>¿Que Obras sociales aceptan?</p>
+                    <img class="none" src="./img/arrowcima.png" alt="">
+                    <img class="arrowmobile" src="./img/arrowmobile.png" alt="">
+                   
+                </div>
+                <div class="resposta">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh, interdum faucibus ad diam vivamus vehicula fames. Convallis ornare praesent mollis at habitasse morbi eu ridiculus, tristique proin venenatis dictum nisl volutpat interdum, eleifend velit erat mi penatibus nibh curabitur. Vestibulum augue condimentum luctus auctor nullam imperdiet magna, mattis scelerisque erat odio aliquam risus nam morbi, accumsan dapibus montes facilisis suspendisse rhoncus.</p>
+                </div>
+
             </div>
 
           
         </div>
-    </section>  
+    </section> 
+    
+    
+    <div class="s-contato">
+       
+        <div class="container">
+            <div class="subtitle">Saca un turno</div>
+            <h2>Contacto</h2>
+            <div class="content-contato">
+
+           
+            <div class="info-contato">
+                <div class="contatos">
+                    <img src="./img/iconMail.png" alt="">
+                    <div class="text">
+                        <span>Escribinos al Mail</span>
+                        <p>info@tudentista.com.ar</p>
+                    </div>
+                </div>
+
+                <div class="contatos">
+                    <img src="./img/iconMail.png" alt="">
+                    <div class="text">
+                        <span>Chatea con Nosotros</span>
+                        <p>+54 35176085XX</p>
+                    </div>
+                </div>
+
+                <div class="contatos">
+                    <img src="./img/iconPhone.png" alt="">
+                    <div class="text">
+                        <span>Llamanos</span>
+                        <p>0810 888 90XX</p>
+                    </div>
+                </div>
+
+                <div class="contatos">
+                    <img src="./img/iconVisit.png" alt="">
+                    <div class="text">
+                        <span>Visitanos</span>
+                        <p>Av. Color 1338, Barrio Alberdi</p>
+                        <p>Lunes a Viernes 8 a 18</p>
+                    </div>
+                </div>
+
+
+                <div class="midiasocial">
+                    <ul>
+                        <li><a href=""><img src="./img/midiaFace.png" alt=""></a></li>
+                        <li><a href=""><img src="./img/midiaIn.png" alt=""></a></li>
+                        <li><a href=""><img src="./img/midiaInsta.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <form action="#" method="post">
+                <h3>Ponete en contacto para coordinar un turno</h3>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        </div>
+    </div>
 
  
-
+<script src="./scripts.js"></script>
   
 
 </body>
